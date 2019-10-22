@@ -47,28 +47,23 @@
       <div id="main-container" class="container">
         <section class="main-section">
           <h1>Contact</h1>
-    
-          <form id="contact-form">
 
-              <div class="container">
-                  <div class="row">
-                    <div class="col-12">
-            <ul>
-              <li>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-              </li>
-              <li>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-              </li>
-              <li>
-                <label for="message">Message</label>
-                <textarea id="message" name="message" required="required"></textarea>
-              </li>
-            </ul>
-            <input type="submit">
-          </form>
+
+          <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input type="name" class="form-control" id="name" placeholder="name">
+              </div>
+              <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="emailAddress" placeholder="name@example.com">
+                </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+              <input type="submit">
+            </form>
     
         </section>
     
